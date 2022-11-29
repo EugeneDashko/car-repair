@@ -1,7 +1,8 @@
 //сброс стилей
 @import "reset";
 //шрифты
-@import "fonts";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+// @import "fonts";
 // иконочный шрифт
 @import "icons";
 // переменные
@@ -20,12 +21,14 @@
 // @import "blocks/footer";
 @import "mediaQueries";
 
-
-.wrapper {
-    max-width: 1062px;
-    margin: 0 auto;
-    padding: 0 15px;
-    font-family: "Heebo";
-    font-weight: 700;
+body {
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+   
+}
+
