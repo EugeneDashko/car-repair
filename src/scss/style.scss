@@ -1,0 +1,31 @@
+//сброс стилей
+@import "reset";
+//шрифты
+@import "fonts";
+// иконочный шрифт
+@import "icons";
+// переменные
+@import "variables";
+// @import "normalize";
+@import "variables";
+// @import "mixins";
+
+@import "blocks/header";
+// @import "blocks/intro";
+// @import "blocks/benefits";
+// @import "blocks/places";
+// @import "blocks/tour";
+// @import "blocks/top";
+// @import "blocks/video";
+// @import "blocks/footer";
+@import "mediaQueries";
+
+
+.wrapper {
+    max-width: 1062px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: "Heebo";
+    font-weight: 700;
+    font-size: 16px;
+}
