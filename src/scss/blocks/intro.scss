@@ -6,21 +6,28 @@
 }
 
 .intro__title {
+    margin-top: -140px;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 150%;
     text-transform: uppercase;
+    line-height: 150%;
 }
 
 .intro__content {
+    max-width: 791px;
     height: 750px;
     display: flex;
     align-items: center;
     color: #fff;
-    max-width: 791px;
+
 }
 
-.intro__block {
-
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    background: #DB2512;
 }
