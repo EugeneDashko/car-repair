@@ -1,3 +1,65 @@
 .header {
-    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__wrapper {
+    color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; // в разные стороны разбрасываем
+    align-items: center; // выравнивание по вертикали
+}
+
+
+.nav__link {
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: 600;
+    position: relative;
+        &:last-child {
+            margin-right: 0;
+        }
+        // нижнюю черту делаю:
+        &::after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            opacity: 0;
+            transition: opacity .2s ease;
+        }
+        &:hover:after {
+            opacity: 1;
+
+        }
+
+}
+
+.nav__link.active:after {
+    opacity: 1;
+}
+
+.header__lng-link {
+    margin-right: 8px;
+    color: #B7B7B7;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+        &:last-child {
+            margin-right: 0;
+        }
+}
+
+.header__lng-link.active {
+    color: white;
 }

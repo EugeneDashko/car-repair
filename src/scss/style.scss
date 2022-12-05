@@ -12,7 +12,7 @@
 // @import "mixins";
 
 @import "blocks/header";
-// @import "blocks/intro";
+@import "blocks/intro";
 // @import "blocks/benefits";
 // @import "blocks/places";
 // @import "blocks/tour";
@@ -29,6 +29,5 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-   
 }
 

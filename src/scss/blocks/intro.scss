@@ -1,0 +1,26 @@
+.intro {
+    width: 100%;
+    background: url('@img/intro_bg.jpg') no-repeat center;
+    background-size: cover;
+
+}
+
+.intro__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.intro__content {
+    height: 750px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    max-width: 791px;
+}
+
+.intro__block {
+
+}
