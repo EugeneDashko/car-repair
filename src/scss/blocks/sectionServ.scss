@@ -2,6 +2,16 @@
     margin-bottom: 100px;
 }
 
+.services__item {
+    text-decoration: none;
+    &:hover .services__content-item {
+        opacity: 1;
+
+    }
+    &:hover .services__content:after {
+        opacity: 0.6;
+    }
+}
 .block__title {
     font-weight: 700;
     font-size: 30px;
@@ -24,3 +34,79 @@
             text-decoration: none;
         }
 }
+
+
+.services__content {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    //делаю слой затемнения
+        &::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: opacity .2s ease ;
+        }
+}
+
+
+//скрываем ПЛЮС и ТЕСКТ
+.services__content-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity .2s ease ;
+}
+
+.services__text {
+    width: 270px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.23em;
+    color: #fff;
+    opacity: 1;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    line-height: 150%;
+
+}
+
+
+.services__img {
+    //делаю красный круг
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    //делаю красный круг
+    background-color: #DB2512;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services__title {
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color:#000;
+}
+

@@ -2,13 +2,12 @@
 transform: translateY(-50%);
 }
 
-.info__wrapper  {
+.wrapper {
     display: flex;
     margin: 0 -10px;
 }
 
-.info__block {
-    max-height: 196px;
+.block {
     width: 33.33%;
     padding: 0 10px;
 }
