@@ -353,6 +353,10 @@ textarea {
   width: 100%;
 }
 
+.header__logo img {
+  height: 65px;
+}
+
 .header__wrapper {
   color: #fff;
   height: 100px;
@@ -399,9 +403,13 @@ textarea {
   font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 .header__lng-link:last-child {
   margin-right: 0;
+}
+.header__lng-link:hover {
+  color: #fff;
 }
 
 .header__lng-link.active {
@@ -415,13 +423,14 @@ textarea {
 }
 
 .intro__title {
-  margin-top: -140px;
+  margin-top: -70px;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 150%;
   text-transform: uppercase;
   line-height: 150%;
+  padding-bottom: 23px;
 }
 
 .intro__content {
@@ -433,11 +442,20 @@ textarea {
 }
 
 .btn {
+  width: 200px;
+  height: 50px;
+  display: flex;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
   background: #DB2512;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  background-color: #b33527;
+  transition: background-color 0.3s ease;
 }
 
 body {

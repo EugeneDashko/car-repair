@@ -5,6 +5,11 @@
     width: 100%;
 }
 
+
+.header__logo img {
+    height: 65px;
+}
+
 .header__wrapper {
     color: #fff;
     height: 100px;
@@ -55,8 +60,12 @@
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: color .3s ease;
         &:last-child {
             margin-right: 0;
+        }
+        &:hover {
+            color: #fff;
         }
 }
 
