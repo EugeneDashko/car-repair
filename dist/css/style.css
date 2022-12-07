@@ -603,6 +603,71 @@ textarea {
   color: #000;
 }
 
+.about {
+  padding: 115px 0;
+  background-color: #000;
+}
+
+.block__title.text-white {
+  color: #fff;
+  margin-bottom: 27px;
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__block {
+  max-width: 505px;
+}
+
+.about__text {
+  font-weight: 600;
+  color: #B7B7B7;
+  letter-spacing: 0.23em;
+  margin-bottom: 48px;
+}
+
+.about__link {
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about__img {
+  height: 340px;
+  background-repeat: no-repeat;
+}
+
+.process {
+  background-color: #fff;
+}
+
+.process__title {
+  margin-top: 84px;
+  margin-bottom: 52px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 148px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.process__subtitle {
+  margin-bottom: 92px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
