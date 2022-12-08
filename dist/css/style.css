@@ -678,7 +678,27 @@ textarea {
 
 .contactsus {
   padding: 100px 0;
-  background-color: #161716;
+  background-color: #171616;
+}
+
+.form__row {
+  display: flex;
+  margin: 0 -20px;
+}
+
+.form__group {
+  padding: 0 20px;
+  flex: 1;
+}
+
+.contactsus__form {
+  max-width: 440px;
+}
+
+.input {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
 }
 
 body {
