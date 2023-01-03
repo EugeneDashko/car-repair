@@ -6,6 +6,7 @@
 .block__title.text-white {
     color: #fff;
     margin-bottom: 27px;
+    padding-right: 30px;
 
 }
 
@@ -24,6 +25,7 @@
     color: #B7B7B7;
     letter-spacing: 0.23em;
     margin-bottom: 48px;
+    padding-right: 30px;
 }
 
 .about__link {
@@ -36,7 +38,7 @@
 }
 
 .about__img {
-    height: 340px;
+    max-height: 340px;
     background-repeat: no-repeat;
  
 }

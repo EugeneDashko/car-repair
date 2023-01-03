@@ -1,3 +1,37 @@
+@media screen and (max-width: 1110px) {
+   .info__title, .info__text  {
+    font-size: 16px;
+    padding-left: 20px;
+   }
+
+   .info__img {
+    padding-left: 20px;
+   }
+}
+
+@media screen and (max-width: 960px) {
+    .info__title, .info__text  {
+        letter-spacing: unset; // убирает расстояние между букв
+    }
+    .services__content {
+        max-height: 400px;
+    }
+    .services__text {
+        left: 18px;
+    }
+    .intro__content {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .info__item {
+    height: 110%;
+    }
+}
+
+
+
 
 
 
