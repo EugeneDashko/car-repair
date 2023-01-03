@@ -796,6 +796,12 @@ textarea {
   .info__img {
     padding-left: 20px;
   }
+  .about__wrapper {
+    flex-direction: column;
+  }
+  .about__block {
+    padding-bottom: 30px;
+  }
 }
 @media screen and (max-width: 960px) {
   .info__title, .info__text {
