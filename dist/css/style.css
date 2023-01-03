@@ -452,6 +452,9 @@ textarea {
   background: #DB2512;
   justify-content: center;
   align-items: center;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #b33527;
@@ -689,6 +692,8 @@ textarea {
 .form__group {
   padding: 0 20px;
   flex: 1;
+  position: relative;
+  margin-bottom: 30px;
 }
 
 .contactsus__form {
@@ -696,9 +701,89 @@ textarea {
 }
 
 .input {
+  width: 100%;
+  padding: 10px 0;
   outline: 0;
   border: 0;
   border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.input:focus + .label {
+  transform: translateY(-20px);
+  font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+  transform: translateY(-20px);
+  font-size: 12px;
+}
+
+.label {
+  letter-spacing: 0.15em;
+  color: #FFF;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  pointer-events: none;
+}
+
+.textarea {
+  min-height: 130px;
+  width: 100%;
+  padding: 10px 0;
+  resize: vertical;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.textarea:focus + .label {
+  transform: translateY(-20px);
+  font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+  transform: translateY(-20px);
+  font-size: 12px;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.footer__wrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.copyright {
+  letter-spacing: 0.15em;
+}
+
+.footer__soc {
+  display: flex;
+}
+
+.footer__soc-link {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.footer__soc-link:last-child {
+  margin-right: 0;
+}
+
+.footer__soc-link img {
+  height: 25px;
 }
 
 body {

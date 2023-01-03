@@ -36,6 +36,9 @@
     background: #DB2512;
     justify-content: center;
     align-items: center;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
         &:hover {
             background-color: #b33527;
             transition: background-color .3s ease;
