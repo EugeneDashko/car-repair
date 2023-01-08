@@ -822,6 +822,20 @@ textarea {
     height: 110%;
   }
 }
+@media screen and (max-width: 850px) {
+  .header__logo img {
+    height: 45px;
+  }
+  .intro__title {
+    font-size: 36px;
+  }
+  .intro__block {
+    text-align: center;
+  }
+  .btn {
+    margin: 0 auto;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
