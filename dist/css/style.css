@@ -808,7 +808,7 @@ textarea {
     letter-spacing: unset;
   }
   .services__content {
-    max-height: 400px;
+    max-height: 350px;
   }
   .services__text {
     left: 18px;
@@ -816,10 +816,17 @@ textarea {
   .intro__content {
     height: 600px;
   }
-}
-@media screen and (max-width: 960px) {
+  .block__link {
+    margin-bottom: 40px;
+  }
   .info__item {
     height: 110%;
+  }
+  .section {
+    margin-bottom: 40px;
+  }
+  .process__title {
+    line-height: 110%;
   }
 }
 @media screen and (max-width: 850px) {
@@ -834,6 +841,120 @@ textarea {
   }
   .btn {
     margin: 0 auto;
+  }
+  .services__content-item {
+    display: none;
+  }
+  .services__content::after {
+    display: none;
+  }
+  .about {
+    padding: 75px 0;
+  }
+  .intro__content {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .block {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .block__link {
+    margin-top: 40px;
+  }
+  .wrapper {
+    flex-wrap: wrap;
+  }
+  .info {
+    transform: translateY(-70px);
+  }
+  .info__item {
+    text-align: center;
+  }
+  .services__content {
+    max-height: 450px;
+    background-position: center;
+  }
+  .contactsus__form {
+    margin: 0 auto;
+  }
+  .block__title.text-white {
+    text-align: center;
+  }
+  .footer__wrapper {
+    height: 80px;
+  }
+  .process__title {
+    line-height: 110%;
+    font-size: 90px;
+  }
+  .process__subtitle {
+    font-size: 28px;
+  }
+  .process__item {
+    text-align: center;
+    min-height: auto;
+    padding: 30px 0;
+  }
+  .nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .services__content {
+    max-height: 300px;
+  }
+  .about {
+    padding: 40px 0;
+  }
+  .about__img {
+    max-width: 100%;
+  }
+  .block__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: auto;
+  }
+  .process__title {
+    font-size: 70px;
+  }
+  .contactsus {
+    padding: 50px 0;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .footer {
+    padding: 15px 15px;
+  }
+  .form__row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 460px) {
+  .intro__title {
+    font-size: 26px;
+  }
+  .about__text {
+    text-align: center;
+  }
+  .about__text {
+    padding-right: 0;
+  }
+  .block__title.text-white {
+    padding-right: 0;
+  }
+  .container {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .process__title {
+    font-size: 44px;
+  }
+  .process__subtitle {
+    font-size: 16px;
   }
 }
 body {
